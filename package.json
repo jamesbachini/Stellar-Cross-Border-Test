@@ -1,0 +1,20 @@
+{
+  "name": "stellar-cross-border-test",
+  "version": "1.0.0",
+  "description": "Speed test for cross border payments on Stellar",
+  "main": "send.js",
+  "scripts": {
+    "test": "node send.js"
+  },
+  "keywords": [
+    "Stellar",
+    "StellarSDK",
+    "CrossBorder",
+    "Payments"
+  ],
+  "author": "James Bachini",
+  "license": "MIT",
+  "dependencies": {
+    "stellar-sdk": "^12.3.0"
+  }
+}
