@@ -38,8 +38,8 @@ const init = async () => {
             process.stdin.end();
             const timeTaken = externalTimestamp - sentTimestamp;
             console.log(`Transaction Time: ${timeTaken}ms (${(timeTaken / 1000)} seconds)`);
-            const distanceMiles = 5473;
-            console.log(`Distance between Cambridge and San Francisco: ${distanceMiles} miles`);
+            const distanceMiles = 4870;
+            console.log(`Distance between Cambridge and Portland: ${distanceMiles} miles`);
             const timeHours = timeTaken / (1000 * 60 * 60);
             const speedMph = distanceMiles / timeHours;
             console.log(`Stellar Cross Border Payments Speed: ${Math.trunc(speedMph).toLocaleString()} mph`);

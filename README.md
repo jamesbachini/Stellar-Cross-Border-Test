@@ -5,7 +5,7 @@ This project contains two scripts, `send.js` and `receive.js`, designed to measu
 ## Overview
 
 1. **`receive.js`**:
-   - Monitors a specific Stellar account for incoming payments.
+   - Monitors a specific wallet account for incoming payments.
    - Records the timestamp when the payment is received.
    - Outputs the received timestamp to be shared with the sender.
 
@@ -36,7 +36,7 @@ This project contains two scripts, `send.js` and `receive.js`, designed to measu
 
 ### Step 1: Run `receive.js`
 
-The recipient runs `receive.js` to monitor their Stellar account for incoming payments.
+The recipient runs `receive.js` to monitor their wallet account for incoming payments.
 
 1. Open a terminal and navigate to the script directory.
 2. Run the script:
